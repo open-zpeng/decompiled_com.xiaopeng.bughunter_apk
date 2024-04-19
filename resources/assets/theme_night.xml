@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Theme>
+
+    <Page name="BluetoothDialog">
+        <View id="view_dialog_content">
+            <background value="@drawable/bg_xmart_dialog_night" />
+        </View>
+        <View id="ib_close">
+            <background value="@drawable/ic_close_night" />
+        </View>
+        <View id="text_view_title">
+            <textColor value="@color/color_dialog_title_night" />
+        </View>
+        <View id="text_view_content">
+            <textColor value="@color/color_dialog_content_night" />
+        </View>
+        <View id="text_view_confirm">
+            <textColor value="@color/color_dialog_confirm_night" />
+        </View>
+        <View id="text_view_cancel">
+            <textColor value="@color/color_dialog_cancel_night" />
+        </View>
+        <View id="view_line">
+            <background value="@color/color_line_night" />
+        </View>
+        <View id="view_vertical_line_btn">
+            <background value="@color/color_line_night" />
+        </View>
+        <View id="feedback_content">
+            <textColor value="@color/color_dialog_title_night" />
+        </View>
+        <!-- <View id="iv_bluetooth">
+             <alpha value="0.5"></alpha>
+         </View>-->
+    </Page>
+</Theme>

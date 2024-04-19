@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:textSize="28sp" android:textColor="#ff2b3547" android:textColorHint="#939aa9" android:id="@+id/edit_text" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/app_name" android:lines="1"/>
+    <View android:id="@+id/line" android:background="#15affe" android:layout_width="match_parent" android:layout_height="2.5dp" android:layout_marginTop="20dp" android:layout_below="@+id/edit_text"/>
+    <TextView android:textSize="20sp" android:textColor="#dc2626" android:id="@+id/tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.5dp" android:text="@string/x_input_error" android:layout_below="@+id/line"/>
+    <ImageView android:id="@+id/img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.5dp" android:src="@mipmap/xinput_tip_error" android:layout_below="@+id/line" android:layout_alignParentRight="true"/>
+</RelativeLayout>

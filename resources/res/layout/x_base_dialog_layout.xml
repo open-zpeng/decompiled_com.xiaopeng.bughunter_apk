@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="430dp">
+    <com.xiaopeng.xui.widgets.dialog.XDialogCloseView android:id="@+id/xdialog_close_view" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <RelativeLayout android:id="@+id/main_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textColor="@color/x_dialog_title_color_day" android:id="@+id/xdialog_title" android:visibility="visible" android:layout_marginTop="@dimen/xdialog_title_margin_top" android:text="@string/dialog_example_2" android:layout_centerHorizontal="true" style="@style/XDialogContent.TitleText"/>
+        <FrameLayout android:id="@+id/content_container" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="75dp" android:layout_marginTop="@dimen/xdialog_content_margin_top_with_title" android:layout_marginRight="75dp" android:layout_below="@+id/xdialog_title" android:layout_centerHorizontal="true"/>
+        <View android:id="@+id/xdialog_divider_horizontal" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="79dp" android:layout_below="@+id/content_container"/>
+        <RelativeLayout android:id="@+id/dialog_button_group" android:paddingLeft="100dp" android:paddingRight="100dp" android:paddingBottom="79dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/xdialog_divider_horizontal" android:layout_centerHorizontal="true">
+            <TextView android:id="@+id/dialog_ok_button" android:background="@drawable/xdialog_btn_ok_bg_selector_day" android:text="@string/confirm" android:layout_alignParentLeft="true" style="@style/XDialogContent.Button"/>
+            <TextView android:id="@+id/dialog_cancel_button" android:background="@drawable/xdialog_btn_bg_selector_day" android:text="@string/cancel" android:layout_alignParentRight="true" style="@style/XDialogContent.Button"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

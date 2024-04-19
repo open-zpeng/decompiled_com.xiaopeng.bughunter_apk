@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="1080dp" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/xdialog_content_container" android:padding="100dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    <com.xiaopeng.xui.widgets.dialog.XDialogCloseView android:id="@+id/xdialog_big_close_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="41dp" android:layout_marginTop="42dp"/>
+</RelativeLayout>
